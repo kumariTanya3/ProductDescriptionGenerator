@@ -18,22 +18,22 @@
 This project provides a Streamlit-based web application that leverages Large Language Models (LLMs) via Langchain's `SequentialChain` to generate creative product titles, compelling marketing-optimized product descriptions, and relevant social media captions. It aims to automate and streamline content creation for e-commerce businesses.
 
 ## Problem Statement
-[cite_start]E-commerce businesses frequently encounter difficulties in crafting engaging and SEO-friendly product descriptions that resonate with their intended audience[cite: 1]. [cite_start]Manually generating these descriptions for a large volume of products is both time-consuming and often leads to inconsistencies in tone[cite: 2].
+E-commerce businesses frequently encounter difficulties in crafting engaging and SEO-friendly product descriptions that resonate with their intended audience[cite: 1]. Manually generating these descriptions for a large volume of products is both time-consuming and often leads to inconsistencies in tone[cite: 2].
 
 ## Goal
 The primary objective of this project is to develop a tool that accepts a basic product name and its key features as input. It then automatically generates a creative product title, followed by a marketing-optimized product description. [cite_start]An additional third chain is included to generate social media captions[cite: 3, 7]. This is achieved using a `SequentialChain` to ensure a coherent flow of content generation.
 
 ## Features
 The tool utilizes a `SequentialChain` with the following steps:
-1.  [cite_start]**Step 1 (Chain 1): Product Title Generation** [cite: 4]
+1.  **Step 1 (Chain 1): Product Title Generation** [cite: 4]
     * Generates a creative and catchy product title based on the input product name and features.
-2.  [cite_start]**Step 2 (Chain 2): Product Description Generation** [cite: 5]
+2.  **Step 2 (Chain 2): Product Description Generation** [cite: 5]
     * Uses the previously generated product title to create a compelling, marketing-toned product description.
-3.  [cite_start]**Step 3 (Chain 3): Social Media Caption Generation** [cite: 7]
+3.  **Step 3 (Chain 3): Social Media Caption Generation** [cite: 7]
     * Generates social media captions, incorporating an SEO keyword or tone modifier, based on the product title and description.
 
 ## Inputs & Outputs
-[cite_start]The application takes the following inputs and produces the specified outputs[cite: 6]:
+The application takes the following inputs and produces the specified outputs[cite: 6]:
 
 **Inputs:**
 * `product_name`: e.g., "Wireless Earbuds"
