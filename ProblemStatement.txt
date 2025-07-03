@@ -1,0 +1,24 @@
+Project Title: 
+"Product Description Generator with Marketing Angle"
+
+Problem Statement:
+E-commerce businesses often struggle to write compelling and SEO-friendly product
+descriptions that appeal to their target audience. Manually writing these descriptions for
+hundreds of products is time-consuming and inconsistent in tone.
+Goal: Build a tool that takes a basic product name and features, and generates a creative
+product title, followed by a marketing-optimized product description, using a SequentialChain.
+Sequential Steps:
+1. Step 1 (Chain 1): Generate a creative and catchy product title based on the Input product
+name and features.
+2. Step 2 (Chain 2): Use the generated product title to create a compelling product description
+with a marketing tone.
+Inputs:
+product_name: e.g., "Wireless Earbuds"
+features: e.g., "Noise cancellation, 12-hour battery life, Bluetooth 5.3"
+Outputs:
+title: "SilentBeats: The Next-Gen Wireless Sound”
+description: "Experience crystal-clear sound like never before. With SilentBeats, Immerse
+yourself in music thanks to advanced noise cancellation, seamless Bluetooth 5.3 connectivity,
+and a 12-hour battery that powers your day.”
+ADDITIONAL Third chain : generate social media captions (Including SEO keyword or tone
+modifier)
