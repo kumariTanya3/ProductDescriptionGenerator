@@ -104,7 +104,7 @@ Follow these steps to get the project up and running on your local machine:
     ```
     GROQ_API_KEY="your_groq_api_key_here"
     ```
-    Replace `"your_groq_api_key_here"` with your actual API key obtained from [Groq](https://console.groq.com/docs/api-keys).
+    Replace `"your_groq_api_key_here"` with your actual API key obtained from [Groq](https://console.groq.com/keys).
 
 ## Usage
 
@@ -121,14 +121,22 @@ Follow these steps to get the project up and running on your local machine:
 ## Project Structure
 
 ProductDescriptionGenerator/
-├── .env                  # Environment variables (IGNORED by Git for security)
+├── .env                  # Environment variables 
+
 ├── .gitignore            # Specifies intentionally untracked files to ignore
-├── genai-env/            # Python virtual environment (IGNORED by Git)
+
+├── genai-env/            # Python virtual environment 
+
 ├── index.py              # Main Streamlit application and LLM chain logic
+
 ├── LICENSE               # Project license file
+
 ├── ProblemStatement.txt  # Defines the project's problem, goal, and steps
+
 ├── README.md             # This readme file
+
 ├── requirements.txt      # Lists Python dependencies
+
 └── solution.ipynb        # Jupyter Notebook for testing chain components
 
 
