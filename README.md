@@ -121,6 +121,7 @@ Follow these steps to get the project up and running on your local machine:
 ## Project Structure
 
 ProductDescriptionGenerator/
+
 ├── .env                  # Environment variables 
 
 ├── .gitignore            # Specifies intentionally untracked files to ignore
