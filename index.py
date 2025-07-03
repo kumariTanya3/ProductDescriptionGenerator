@@ -239,7 +239,7 @@ with st.container():
         
         SEOKeyword = st.text_input(
             "SEO Keyword:",
-            placeholder="e.g., smart contact lenses, health monitoring lenses, innovative eyewear"
+            placeholder="e.g., smart contact lenses, health monitoring lenses, innovative eyewear, temperature adaptor"
         )
         
         Tone = st.text_input(

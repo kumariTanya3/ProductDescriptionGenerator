@@ -1,3 +1,16 @@
+# Python virtual environment
+genai-env/
+pyvenv.cfg
+
+# Environment variables (sensitive info)
+.env
+
+# Python compiled files
+__pycache__/
+
+# VS Code specific files (optional, but often useful to exclude user settings)
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
